@@ -1,0 +1,211 @@
+[1588690620.475][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1588690620.479][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1588690620.481][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1588690620.493][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\mohit.k\AppData\Local\Temp\scoped_dir28588_26084\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\mohit.k\AppData\Local\Temp\scoped_dir28588_20668" data:,
+[1588690621.374][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588690623.373][WARNING]: Timed out connecting to Chrome, retrying...
+[1588690623.375][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588690625.428][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)",
+      "userDataDir": "C:\\Users\\mohit.k\\AppData\\Local\\Temp\\scoped_dir28588_20668"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1588690625.549][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1588690625.550][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588690627.553][WARNING]: Timed out connecting to Chrome, retrying...
+[1588690627.559][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1588690629.730][INFO]: RESPONSE MaximizeWindow
+[1588690629.750][INFO]: COMMAND DeleteAllCookies {
+
+}
+[1588690629.750][INFO]: Waiting for pending navigations...
+[1588690629.794][INFO]: Done waiting for pending navigations. Status: ok
+[1588690629.813][INFO]: Waiting for pending navigations...
+[1588690629.826][INFO]: Done waiting for pending navigations. Status: ok
+[1588690629.826][INFO]: RESPONSE DeleteAllCookies
+[1588690629.837][INFO]: COMMAND SetTimeout {
+   "ms": 30000,
+   "type": "page load"
+}
+[1588690629.837][INFO]: RESPONSE SetTimeout
+[1588690629.848][INFO]: COMMAND SetTimeout {
+   "ms": 15000,
+   "type": "implicit"
+}
+[1588690629.848][INFO]: RESPONSE SetTimeout
+[1588690629.856][INFO]: COMMAND Navigate {
+   "url": "https://classic.crmpro.com/index.html"
+}
+[1588690629.857][INFO]: Waiting for pending navigations...
+[1588690629.858][INFO]: Done waiting for pending navigations. Status: ok
+[1588690631.042][INFO]: Waiting for pending navigations...
+[1588690634.863][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.863][INFO]: RESPONSE Navigate
+[1588690634.874][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "username"
+}
+[1588690634.874][INFO]: Waiting for pending navigations...
+[1588690634.875][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.885][INFO]: Waiting for pending navigations...
+[1588690634.887][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.887][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.23591419506135103-1"
+}
+[1588690634.900][INFO]: COMMAND TypeElement {
+   "id": "0.23591419506135103-1",
+   "value": [ "Reddy77077" ]
+}
+[1588690634.900][INFO]: Waiting for pending navigations...
+[1588690634.900][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.974][INFO]: Waiting for pending navigations...
+[1588690634.974][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.974][INFO]: RESPONSE TypeElement
+[1588690634.979][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+[1588690634.979][INFO]: Waiting for pending navigations...
+[1588690634.980][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.991][INFO]: Waiting for pending navigations...
+[1588690634.994][INFO]: Done waiting for pending navigations. Status: ok
+[1588690634.994][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.23591419506135103-2"
+}
+[1588690634.999][INFO]: COMMAND TypeElement {
+   "id": "0.23591419506135103-2",
+   "value": [ "Saibaba77" ]
+}
+[1588690634.999][INFO]: Waiting for pending navigations...
+[1588690635.000][INFO]: Done waiting for pending navigations. Status: ok
+[1588690635.065][INFO]: Waiting for pending navigations...
+[1588690635.066][INFO]: Done waiting for pending navigations. Status: ok
+[1588690635.066][INFO]: RESPONSE TypeElement
+[1588690635.072][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@class='btn btn-small']"
+}
+[1588690635.072][INFO]: Waiting for pending navigations...
+[1588690635.073][INFO]: Done waiting for pending navigations. Status: ok
+[1588690635.081][INFO]: Waiting for pending navigations...
+[1588690635.081][INFO]: Done waiting for pending navigations. Status: ok
+[1588690635.081][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.23591419506135103-3"
+}
+[1588690635.089][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.23591419506135103-3",
+      "element-6066-11e4-a52e-4f735466cecf": "0.23591419506135103-3"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1588690635.089][INFO]: Waiting for pending navigations...
+[1588690635.091][INFO]: Done waiting for pending navigations. Status: ok
+[1588690635.109][INFO]: Waiting for pending navigations...
+[1588690643.750][INFO]: Done waiting for pending navigations. Status: ok
+[1588690643.750][INFO]: RESPONSE ExecuteScript
+[1588690643.758][INFO]: COMMAND Quit {
+
+}
+[1588690643.885][INFO]: RESPONSE Quit
